@@ -14,6 +14,41 @@ html {
 
 body {
     font-family: $main-font, sans-serif;
+    height: 200vh;
+    background-color: royalblue;
 }
 
 // nav
+.navigation {
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+
+    &__list {
+        // display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin: 0;
+        padding-bottom: 16px;
+        background-color: #fff;
+        list-style: none;
+    }
+
+    &__link {
+        color: rgba(0, 0, 0, .5);
+        text-decoration: none;
+    }
+
+    &__button {
+        position: absolute;
+        top: 30%;
+        right: 5%;
+        padding: 5px 8px;
+        border-style: none;
+        background-color: #fff;
+    }
+}
