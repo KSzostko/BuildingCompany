@@ -21,21 +21,24 @@ body {
 // nav
 .navigation {
     position: fixed;
-    height: 10vh;
+    height: 8vh;
     width: 100vw;
-    border-bottom: 1px solid #000;
     background-color: #fff;
 
     &__list {
-        // display: none;
+        display: none;
         position: absolute;
         top: 100%;
         left: 0;
         right: 0;
         margin: 0;
-        padding-bottom: 16px;
+        padding-bottom: 8px;
         background-color: #fff;
         list-style: none;
+
+        &--visible {
+            display: block;
+        }
     }
 
     &__link {
@@ -45,7 +48,7 @@ body {
 
     &__button {
         position: absolute;
-        top: 30%;
+        top: 20%;
         right: 5%;
         padding: 5px 8px;
         border-style: none;
