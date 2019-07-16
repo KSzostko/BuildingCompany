@@ -6,4 +6,5 @@ const menuList = document.querySelector('.navigation__list--js');
 
 btnMenu.addEventListener('click', () => {
     menuList.classList.toggle('navigation__list--visible');
+    btnMenu.classList.toggle('is-active');
 });
