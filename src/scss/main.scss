@@ -297,5 +297,15 @@ body {
             font-size: 20px;
             border-radius: 12px;
         }
+
+        // desktops
+        @media(min-width: 1024px) and (orientation: landscape) {
+            transition: 0.5s;
+
+            &:hover {
+                background-color: rgba(256, 208, 7, 0.5);
+                cursor: pointer;
+            }
+        }
     }
 }
