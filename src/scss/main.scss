@@ -1,5 +1,6 @@
 @import "_normalize";
 @import "_variables";
+@import "_mixins";
 @import "_hamburgers";
 
 
@@ -172,5 +173,46 @@ body {
         @media(min-width: 1024px) and (orientation: landscape) {
             display: none;
         }
+    }
+}
+
+// welcome
+.welcome {
+    height: 80vh;
+    margin-top: calc(10vh - 5px);
+    padding-left: 16px;
+    padding-right: 16px;
+    background-image: url('../assets/img/top-bg.jpg');
+    background-position: 40% 50%;
+    color: #fff;
+    text-align: center;
+    @include flex-column;
+    align-items: center;
+
+    &__title {
+        padding-top: 10vh;
+        margin-bottom: 0;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    &__advantage {
+        color: $orange;
+    }
+
+    &__description {
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    &__button {
+        margin-top: 12vh;
+        padding: 10px 20px;
+        border-style: none;
+        border-radius: 4px;
+        background-color: $orange;
+        color: #fff;
+        text-align: center;
     }
 }
