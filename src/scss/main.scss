@@ -218,6 +218,10 @@ body {
         @media(min-width: 533px) and (orientation: landscape) {
             font-size: 25px;
         }
+
+        @media(min-width: 850px) and (orientation: landscape) {
+            font-size: 40px;
+        }
     }
 
     &__advantage {
@@ -241,6 +245,10 @@ body {
         // mobile landscape
         @media(min-width: 533px) and (orientation: landscape) {
             font-size: 12px;
+        }
+
+        @media(min-width: 850px) and (orientation: landscape) {
+            font-size: 16px;
         }
     }
 
@@ -269,6 +277,13 @@ body {
         // mobile landscape
         @media(min-width: 533px) and (orientation: landscape) {
             margin-top: 22vh;
+        }
+
+        @media(min-width: 850px) and (orientation: landscape) {
+            margin-top: 15vh;
+            padding: 12px 30px;
+            font-size: 20px;
+            border-radius: 12px;
         }
     }
 }
