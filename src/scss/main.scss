@@ -199,6 +199,13 @@ body {
         height: 95vh;
     }
 
+    // desktops
+    @media(min-width: 1024px) and (orientation: landscape) {
+        height: 70vh;
+        margin-top: 5vh;
+        background-size: cover;
+    }
+
     &__title {
         padding-top: 10vh;
         margin-bottom: 0;
