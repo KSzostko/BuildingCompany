@@ -229,6 +229,11 @@ body {
         @media(min-width: 850px) and (orientation: landscape) {
             font-size: 40px;
         }
+
+        // desktops
+        @media(min-width: 1024px) and (orientation: landscape) {
+            margin-top: 0;
+        }
     }
 
     &__advantage {
