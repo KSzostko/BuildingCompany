@@ -26,6 +26,11 @@ body {
     width: 100vw;
     background-color: #fff;
 
+    // mobile landscape
+    @media(min-width: 533px) and (orientation: landscape) {
+        height: 16vh;
+    }
+
     &__list {
         position: absolute;
         height: 0;
@@ -61,6 +66,12 @@ body {
                 height: 16vh;
                 font-size: 30px;
             }
+
+            // mobile landscape
+            @media(min-width: 533px) and (orientation: landscape) {
+                height: 30vh;
+            }
+
         }
     }
 
@@ -87,6 +98,12 @@ body {
             top: 25%;
             right: 2%;
             transform: scale(1.25);
+        }
+
+        // mobile landscape
+        @media(min-width: 533px) and (orientation: landscape) {
+            // top: -20%;
+            // right: -2%;
         }
     }
 }
