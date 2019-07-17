@@ -31,6 +31,14 @@ body {
         height: 16vh;
     }
 
+    @media(min-width: 730px) and (orientation: landscape) {
+        height: 12vh;
+    }
+
+    @media(min-width: 900px) and (orientation: landscape) {
+        height: 8vh;
+    }
+
     &__list {
         position: absolute;
         height: 0;
@@ -70,6 +78,15 @@ body {
             // mobile landscape
             @media(min-width: 533px) and (orientation: landscape) {
                 height: 26vh;
+            }
+
+            @media(min-width: 730px) and (orientation: landscape) {
+                height: 20vh;
+            }
+
+            @media(min-width: 900px) and (orientation: landscape) {
+                height: 15vh;
+                font-size: 18px;
             }
 
         }
