@@ -307,3 +307,28 @@ body {
         }
     }
 }
+
+// offer
+.offer {
+    padding: 0 16px 64px 16px;
+    text-align: center;
+
+    &__title {
+        margin: 10vh 0 10vh 0;
+        font-size: 26px;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        margin-bottom: 6vh;
+    }
+
+    &__name {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+
+    &__description {
+        line-height: 1.5;
+    }
+}
