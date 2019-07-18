@@ -324,6 +324,12 @@ body {
         padding-right: 100px;
     }
 
+    // mobile landscape
+    @media(min-width: 533px) and (orientation: landscape) {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
     &__title {
         margin: 10vh 0 10vh 0;
         font-size: 26px;
