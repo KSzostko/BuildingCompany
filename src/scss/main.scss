@@ -473,6 +473,11 @@ body {
         padding-top: 15vh;
     }
 
+    @media(min-width: 850px) and (orientation: landscape) {
+        height: 80vh;
+        padding-top: 8vh;
+    }
+
     &__title {
         margin-bottom: 16px;
         font-size: 42px;
