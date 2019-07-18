@@ -454,10 +454,20 @@ body {
         height: 55vh;
     }
 
+    @media(min-width: 600px) and (orientation: portrait) {
+        padding-top: 2vh;
+        height: 50vh;
+    }
+
     &__title {
         margin-bottom: 16px;
         font-size: 42px;
         text-transform: uppercase;
+
+        // mobile portrait
+        @media(min-width: 600px) and (orientation: portrait) {
+            font-size: 50px;
+        }
     }
 
     &__span {
@@ -470,6 +480,10 @@ body {
         @media(min-width: 480px) and (orientation: portrait) {
             margin: 16px 80px;
         }
+
+        @media(min-width: 600px) and (orientation: portrait) {
+            margin: 16px 120px;
+        }
     }
 
     &__content {
@@ -478,6 +492,18 @@ body {
         // mobile portrait
         @media(min-width: 480px) and (orientation: portrait) {
             font-size: 18px;
+        }
+
+        @media(min-width: 600px) and (orientation: portrait) {
+            font-size: 20px;
+        }
+    }
+
+    &__author {
+
+        // mobile portrait
+        @media(min-width: 600px) and (orientation: portrait) {
+            font-size: 20px;
         }
     }
 }
