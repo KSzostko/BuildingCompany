@@ -330,6 +330,11 @@ body {
         padding-right: 64px;
     }
 
+    @media(min-width: 850px) and (orientation: landscape) {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
     &__title {
         margin: 10vh 0 10vh 0;
         font-size: 26px;
@@ -346,6 +351,11 @@ body {
 
         @media(min-width: 768px) and (orientation: portrait) {
             font-size: 50px;
+        }
+
+        // mobile landscape
+        @media(min-width: 850px) and (orientation: landscape) {
+            font-size: 34px;
         }
     }
 
@@ -378,6 +388,11 @@ body {
         @media(min-width: 768px) and (orientation: portrait) {
             font-size: 40px;
         }
+
+        // mobile landscape
+        @media(min-width: 850px) and (orientation: landscape) {
+            font-size: 26px;
+        }
     }
 
     &__description {
@@ -390,6 +405,11 @@ body {
 
         @media(min-width: 768px) and (orientation: portrait) {
             font-size: 24px;
+        }
+
+        // mobile landscape
+        @media(min-width: 850px) and (orientation: landscape) {
+            font-size: 18px;
         }
     }
 }
