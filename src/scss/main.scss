@@ -335,6 +335,12 @@ body {
         padding-right: 150px;
     }
 
+    // desktops
+    @media(min-width: 1024px) and (orientation: landscape) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     &__title {
         margin: 10vh 0 10vh 0;
         font-size: 26px;
@@ -357,10 +363,20 @@ body {
         @media(min-width: 850px) and (orientation: landscape) {
             font-size: 34px;
         }
+
+        // desktops
+        @media(min-width: 1024px) and (orientation: landscape) {
+            flex-basis: 100%;
+        }
     }
 
     &__item {
         margin-bottom: 6vh;
+
+        // desktops
+        @media(min-width: 1024px) and (orientation: landscape) {
+            flex-basis: 30%;
+        }
     }
 
     &__image {
