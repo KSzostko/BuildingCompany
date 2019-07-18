@@ -337,8 +337,11 @@ body {
 
     // desktops
     @media(min-width: 1024px) and (orientation: landscape) {
+        padding-left: 16px;
+        padding-right: 16px;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     &__title {
