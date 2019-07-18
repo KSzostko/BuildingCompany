@@ -370,6 +370,7 @@ body {
         // desktops
         @media(min-width: 1024px) and (orientation: landscape) {
             flex-basis: 100%;
+            font-size: 38px;
         }
     }
 
@@ -379,6 +380,8 @@ body {
         // desktops
         @media(min-width: 1024px) and (orientation: landscape) {
             flex-basis: 30%;
+            padding-left: 32px;
+            padding-right: 32px;
         }
     }
 
