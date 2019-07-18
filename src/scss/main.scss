@@ -445,6 +445,11 @@ body {
     color: #fff;
     text-align: center;
 
+    // mobile portrait
+    @media(min-width: 360px) and (orientation: portrait) {
+        height: 65vh;
+    }
+
     &__title {
         margin-bottom: 16px;
         font-size: 42px;
