@@ -16,6 +16,7 @@ html {
 
 body {
     font-family: $main-font, sans-serif;
+    height: 400vh;
 }
 
 // nav
@@ -478,6 +479,14 @@ body {
         padding-top: 8vh;
     }
 
+    // desktops
+    @media(min-width: 1024px) and (orientation: landscape) {
+        padding-top: 4vh;
+        height: 50vh;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
     &__title {
         margin-bottom: 16px;
         font-size: 42px;
@@ -490,6 +499,11 @@ body {
 
         @media(min-width: 768px) and (orientation: portrait) {
             font-size: 60px;
+        }
+
+        // desktops
+        @media(min-width: 1024px) and (orientation: landscape) {
+            font-size: 52px;
         }
     }
 
@@ -524,6 +538,12 @@ body {
         @media(min-width: 730px) and (orientation: landscape) {
             margin: 16px 200px;
         }
+
+        // desktops
+        @media(min-width: 1024px) and (orientation: landscape) {
+            max-width: 716px;
+            margin: 40px auto;
+        }
     }
 
     &__content {
@@ -552,6 +572,12 @@ body {
 
         @media(min-width: 768px) and (orientation: portrait) {
             font-size: 24px;
+        }
+    }
+
+    &__break-line {
+        @media(min-width: 1024px) and (orientation: landscape) {
+            display: none;
         }
     }
 }
