@@ -435,3 +435,27 @@ body {
         }
     }
 }
+
+// opinion
+.opinion {
+    height: 80vh;
+    padding-top: 5vh;
+    background-image: url('../assets/img/testimonial-bg.jpg');
+    background-position: 5% 25%;
+    color: #fff;
+    text-align: center;
+
+    &__title {
+        margin-bottom: 16px;
+        font-size: 42px;
+        text-transform: uppercase;
+    }
+
+    &__span {
+        color: $orange;
+    }
+
+    &__content {
+        line-height: 1.5;
+    }
+}
