@@ -313,10 +313,21 @@ body {
     padding: 0 16px 64px 16px;
     text-align: center;
 
+    // mobile portrait
+    @media(min-width: 480px) and (orientation: portrait) {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
     &__title {
         margin: 10vh 0 10vh 0;
         font-size: 26px;
         text-transform: uppercase;
+
+        // mobile portrait
+        @media(min-width: 480px) and (orientation: portrait) {
+            font-size: 35px;
+        }
     }
 
     &__item {
@@ -326,9 +337,20 @@ body {
     &__name {
         margin-top: 10px;
         font-size: 22px;
+
+        // mobile portrait
+        @media(min-width: 480px) and (orientation: portrait) {
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
     }
 
     &__description {
         line-height: 1.5;
+
+        // mobile portrait
+        @media(min-width: 480px) and (orientation: portrait) {
+            font-size: 18px;
+        }
     }
 }
