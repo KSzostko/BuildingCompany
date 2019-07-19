@@ -708,12 +708,21 @@ body {
 
 // contact
 .contact {
+    position: relative;
     padding: 16px 16px 32px 16px;
 
     // mobile landscape
     @media(min-width: 533px) and (orientation: landscape) {
         padding-left: 64px;
         padding-right: 64px;
+        max-width: 1520px;
+        margin: 0 auto;
+    }
+
+    // desktops
+    @media(min-width: 1024px) and (orientation: landscape) {
+        padding-left: 200px;
+        padding-right: 200px;
     }
 
     &__span {
@@ -754,6 +763,11 @@ body {
         @media(min-width: 533px) and (orientation: landscape) {
             width: 60%;
         }
+
+        // desktops
+        @media(min-width: 1024px) and (orientation: landscape) {
+            width: 25%;
+        }
     }
 
     &__button {
@@ -771,5 +785,14 @@ body {
 
     &__image {
         display: none;
+
+        // desktops
+        @media(min-width: 1024px) and (orientation: landscape) {
+            display: inline-block;
+            width: 40%;
+            position: absolute;
+            top: 16px;
+            right: 20%;
+        }
     }
 }
