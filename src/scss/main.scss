@@ -710,6 +710,12 @@ body {
 .contact {
     padding: 16px 16px 32px 16px;
 
+    // mobile landscape
+    @media(min-width: 533px) and (orientation: landscape) {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
     &__span {
         @include span-text($green);
 
@@ -743,6 +749,11 @@ body {
 
     &__input {
         width: 90%;
+
+        // mobile landscape
+        @media(min-width: 533px) and (orientation: landscape) {
+            width: 60%;
+        }
     }
 
     &__button {
