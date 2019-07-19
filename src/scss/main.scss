@@ -615,6 +615,7 @@ body {
 
         // desktops
         @media(min-width: 1024px) and (orientation: landscape) {
+            margin-bottom: 64px;
             flex-basis: 100%;
             font-size: 38px;
         }
