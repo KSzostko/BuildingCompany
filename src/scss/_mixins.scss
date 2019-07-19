@@ -8,3 +8,10 @@
     flex-direction: column;
     justify-content: center;
 }
+
+@mixin span-text($color) {
+    color: $color;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
