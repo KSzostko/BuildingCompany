@@ -16,7 +16,6 @@ html {
 
 body {
     font-family: $main-font, sans-serif;
-    height: 400vh;
 }
 
 // nav
@@ -596,6 +595,11 @@ body {
         margin-top: 0;
         text-transform: uppercase;
         text-align: center;
+
+        // mobile portrait
+        @media(min-width: 600px) and (orientation: portrait) {
+            font-size: 38px;
+        }
     }
 
     &__project {
@@ -613,15 +617,31 @@ body {
         font-size: 12px;
         letter-spacing: 2px;
         text-transform: uppercase;
+
+        // mobile portrait
+        @media(min-width: 600px) and (orientation: portrait) {
+            font-size: 16px;
+        }
     }
 
     &__project-name {
         margin-top: 8px;
         text-transform: uppercase;
+
+        // mobile portrait
+        @media(min-width: 600px) and (orientation: portrait) {
+            margin-bottom: 12px;
+            font-size: 24px;
+        }
     }
 
     &__description {
         line-height: 1.5;
+
+        // mobile portrait
+        @media(min-width: 600px) and (orientation: portrait) {
+            font-size: 18px;
+        }
     }
 
     &__button {
@@ -631,5 +651,10 @@ body {
         border-radius: 4px;
         background-color: $red;
         color: #fff;
+
+        // mobile portrait
+        @media(min-width: 600px) and (orientation: portrait) {
+            font-size: 20px;
+        }
     }
 }
