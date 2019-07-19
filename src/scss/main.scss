@@ -604,6 +604,11 @@ body {
         @media(min-width: 768px) and (orientation: portrait) {
             font-size: 50px;
         }
+
+        // desktops
+        @media(min-width: 1024px) and (orientation: landscape) {
+            font-size: 38px;
+        }
     }
 
     &__project {
