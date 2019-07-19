@@ -25,6 +25,7 @@ body {
     height: 8vh;
     width: 100vw;
     background-color: #fff;
+    z-index: 1;
 
     // mobile landscape
     @media(min-width: 533px) and (orientation: landscape) {
@@ -803,5 +804,55 @@ body {
             top: 16px;
             right: 20%;
         }
+    }
+}
+
+// info
+.info {
+    padding: 16px;
+    background-color: $blue;
+    color: #fff;
+    font-weight: 300;
+
+    &__list {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    &__list-item {
+        margin-bottom: 16px;
+        margin-right: 16px;
+
+        &--link {
+            padding-bottom: 16px;
+            border-bottom: 1px solid $border-grey;
+
+            &:first-of-type {
+                padding-top: 16px;
+            }
+
+            &:last-of-type {
+                border-style: none;
+            }
+        }
+    }
+
+    &__span {
+        padding-right: 8px;
+        color: $orange;
+    }
+
+    &__icon {
+        padding-right: 8px;
+        color: #000;
+    }
+
+    &__link {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    &__image {
+        width: 100%;
     }
 }
