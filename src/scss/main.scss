@@ -591,6 +591,14 @@ body {
     padding: 32px 16px;
     background-color: $portfolio-background;
 
+    // desktops
+    @media(min-width: 1024px) and (orientation: landscape) {
+        padding: 64px 200px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
     &__title {
         margin-top: 0;
         text-transform: uppercase;
@@ -607,12 +615,18 @@ body {
 
         // desktops
         @media(min-width: 1024px) and (orientation: landscape) {
+            flex-basis: 100%;
             font-size: 38px;
         }
     }
 
     &__project {
         margin-bottom: 16px;
+
+        // desktops
+        @media(min-width: 1024px) and (orientation: landscape) {
+            flex-basis: 48%;
+        }
     }
 
     &__image {
