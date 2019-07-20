@@ -864,6 +864,12 @@ body {
                 border-style: none;
             }
         }
+
+        &--contact {
+            @media(min-width: 1024px) and (orientation: landscape) {
+                margin-bottom: 24px;
+            }
+        }
     }
 
     &__span {
