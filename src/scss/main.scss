@@ -816,8 +816,17 @@ body {
     color: #fff;
     font-weight: 300;
 
+    // mobile portrait
     @media(min-width: 768px) and (orientation: portrait) {
         padding: 32px;
+    }
+
+    // desktops
+    @media(min-width: 1024px) and (orientation: landscape) {
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     &__list {
