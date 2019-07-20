@@ -885,6 +885,13 @@ body {
     &__link {
         color: #fff;
         text-decoration: none;
+
+        // desktops
+        &:hover {
+            @media(min-width: 1024px) and (orientation: landscape) {
+                text-decoration: underline;
+            }
+        }
     }
 
     &__image {
