@@ -824,6 +824,11 @@ body {
         margin-bottom: 16px;
         margin-right: 16px;
 
+        // mobile portrait
+        @media(min-width: 600px) and (orientation: portrait) {
+            font-size: 20px;
+        }
+
         &--link {
             padding-bottom: 16px;
             border-bottom: 1px solid $border-grey;
