@@ -810,6 +810,7 @@ body {
 
 // info
 .info {
+    position: relative;
     padding: 16px;
     background-color: $blue;
     color: #fff;
@@ -868,5 +869,12 @@ body {
 
     &__image {
         width: 100%;
+
+        // mobile landscape
+        @media(min-width: 533px) and (orientation: landscape) {
+            display: block;
+            max-width: 400px;
+            margin: 0 auto;
+        }
     }
 }
