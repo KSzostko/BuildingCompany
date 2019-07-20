@@ -815,6 +815,10 @@ body {
     color: #fff;
     font-weight: 300;
 
+    @media(min-width: 768px) and (orientation: portrait) {
+        padding: 32px;
+    }
+
     &__list {
         padding-left: 0;
         list-style: none;
@@ -827,6 +831,10 @@ body {
         // mobile portrait
         @media(min-width: 600px) and (orientation: portrait) {
             font-size: 20px;
+        }
+
+        @media(min-width: 768px) and (orientation: portrait) {
+            font-size: 24px;
         }
 
         &--link {
