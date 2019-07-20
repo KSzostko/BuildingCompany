@@ -885,5 +885,10 @@ body {
             max-width: 400px;
             margin: 0 auto;
         }
+
+        // desktops
+        @media(min-width: 1024px) and (orientation: landscape) {
+            margin: 0;
+        }
     }
 }
