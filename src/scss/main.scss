@@ -832,6 +832,11 @@ body {
     &__list {
         padding-left: 0;
         list-style: none;
+
+        // desktops
+        @media(min-width: 1024px) and (orientation: landscape) {
+            margin-right: 64px;
+        }
     }
 
     &__list-item {
