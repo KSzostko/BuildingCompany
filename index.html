@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul class="navigation__list navigation__list--js">
+            <li class="navigation__item"><a class="navigation__link" href="#">Start</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#">Cennik</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#">Realizacje</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#">Kontakt</a></li>
+        </ul>
+        <button class="hamburger hamburger--slider navigation__button navigation__button--js" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    </nav>
+
+    <header class="welcome">
+        <h1 class="welcome__title">Odkryj<br><span class="welcome__advantage">nową jakość</span><br>w budownictwie</h1>
+        <p class="welcome__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam ullam rem!</p>
+        <button class="welcome__button">Więcej</button>
+    </header>
+
+    <main>
+        <section class="offer">
+            <h2 class="offer__title">Buduj z nami</h2>
+            <div class="offer__item">
+                <img class="offer__image" src="assets/img/ikona1.png" alt="koparka">
+                <h3 class="offer__name">Innowacja</h3>
+                <p class="offer__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo nobis nostrum.</p>
+            </div>
+            <div class="offer__item">
+                <img class="offer__image" src="assets/img/ikona2.png" alt="ciężarówka z piaskiem">
+                <h3 class="offer__name">Tradycja</h3>
+                <p class="offer__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo nobis nostrum.</p>
+            </div>
+            <div class="offer__item">
+                <img class="offer__image" src="assets/img/ikona3.png" alt="dźwig">
+                <h3 class="offer__name">Doświadczenie</h3>
+                <p class="offer__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo nobis nostrum.</p>
+            </div>
+        </section>
+
+        <section class="opinion">
+            <h2 class="opinion__title">Opinia <br class="opinion__break-line"><span class="opinion__span">klienta</span>
+            </h2>
+            <blockquote class="opinion__quote">
+                <p class="opinion__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eos eveniet impedit corrupti, blanditiis magnam natus architecto nobis numquam ea facilis nostrum asperiores cupiditate dolor! Tempora.</p>
+                <cite class="opinion__author">Jan Kowlaski</cite>
+            </blockquote>
+        </section>
+
+        <section class="portfolio">
+            <h2 class="portfolio__title">Nasze najnowsze realizacje</h2>
+            <article class="portfolio__project">
+                <img class="portfolio__image" src="assets/img/inwestycja-1-mod.jpg" alt="budynek">
+                <span class="portfolio__span">Inwestycja</span>
+                <h3 class="portfolio__project-name">Biurowiec</h3>
+                <p class="portfolio__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos eligendi quibusdam fugiat! Nulla, veniam! Enim nobis accusantium qui, dicta, voluptate earum dolores necessitatibus fuga labore, rem sunt dolorem. Consequuntur, fuga!</p>
+                <button class="portfolio__button">Czytaj więcej</button>
+            </article>
+            <article class="portfolio__project">
+                <img class="portfolio__image" src="assets/img/inwestycja-2-mod.jpg" alt="wnętrze mieszkania">
+                <span class="portfolio__span">Inwestycja</span>
+                <h3 class="portfolio__project-name">Osiedle mieszkaniowe</h3>
+                <p class="portfolio__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos eligendi quibusdam fugiat! Nulla, veniam! Enim nobis accusantium qui, dicta, voluptate earum dolores necessitatibus fuga labore, rem sunt dolorem. Consequuntur, fuga!</p>
+                <button class="portfolio__button">Czytaj więcej</button>
+            </article>
+        </section>
+
+        <section class="contact">
+            <span class="contact__span">Masz pytanie?</span>
+            <h2 class="contact__title">Skontaktuj się z nami</h2>
+            <form class="contact__form" action="#">
+                <p class="contact__name">
+                    <label class="contact__label" for="name">Imię i nazwisko</label>
+                    <input class="contact__input" id="name" type="text">
+                </p>
+                <p class="contact__email">
+                    <label class="contact__label" for="email">E-mail</label>
+                    <input class="contact__input" id="email" type="email">
+                </p>
+                <p class="contact__message-title">
+                    <label class="contact__label" for="title">Tytuł wiadomości</label>
+                    <input class="contact__input" id="title" type="text">
+                </p>
+                <p class="contact__message">
+                    <label class="contact__label" for="message">Wiadomość</label>
+                    <textarea class="contact__input" name="message" id="message" rows="10"></textarea>
+                </p>
+                <button class="contact__button">Wyślij wiadomość</button>
+            </form>
+            <img class="contact__image" src="assets/img/budowlaniec.jpg" alt="budowlaniec">
+        </section>
+
+        <section class="info">
+            <ul class="info__list">
+                <li class="info__list-item info__list-item--contact"><i class="info__icon fa fa-phone"></i> 123-456-789
+                </li>
+                <li class="info__list-item info__list-item--contact"><i class="info__icon fa fa-phone"></i> 123-456-789
+                </li>
+                <li class="info__list-item info__list-item--contact"><i class="info__icon fa fa-clock"></i> Pn.-Pt.
+                    8:00-16:00</li>
+                <li class="info__list-item info__list-item--contact"><i class="info__icon fa fa-clock"></i> Pn.-Pt.
+                    8:00-16:00</li>
+                <li class="info__list-item info__list-item--contact"><i class="info__icon fa fa-envelope"></i>
+                    firma1@gmail.com</li>
+                <li class="info__list-item info__list-item--contact"><i class="info__icon fa fa-envelope"></i>
+                    firma2@gmail.com</li>
+            </ul>
+            <ul class="info__list">
+                <li class="info__list-item info__list-item--link"><span class="info__span">></span>
+                    <a class="info__link" href="#">Dlaczego my</a></li>
+                <li class="info__list-item info__list-item--link"><span class="info__span">></span>
+                    <a class="info__link" href="#">Zobacz nasze najnowsze realizacje</a></li>
+                <li class="info__list-item info__list-item--link"><span class="info__span">></span>
+                    <a class="info__link" href="#">Jak dbamy o bezpieczeństwo</a>
+                </li>
+                <li class="info__list-item info__list-item--link"><span class="info__span">></span>
+                    <a class="info__link" href="#">Innowacja oraz technolognie</a></li>
+                <li class="info__list-item info__list-item--link"><span class="info__span">></span>
+                    <a class="info__link" href="#">Wybrane opinie inwestorów</a>
+                </li>
+            </ul>
+            <img class="info__image" src="assets/img/mapa.jpg" alt="lokalizacja firmy">
+        </section>
+    </main>
+
+    <footer class="copyright">&copy; Kuba Szóstko 2019</footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
